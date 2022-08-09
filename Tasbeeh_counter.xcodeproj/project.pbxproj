@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2C0D2C4286E8C84007AE864 /* SabaahTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C0D2C3286E8C84007AE864 /* SabaahTableViewController.swift */; };
+		A2C0D2C6286E8CCF007AE864 /* MasaaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C0D2C5286E8CCF007AE864 /* MasaaTableViewController.swift */; };
 		A2C53A78286E29EE002AB657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C53A77286E29EE002AB657 /* AppDelegate.swift */; };
 		A2C53A7A286E29EE002AB657 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C53A79286E29EE002AB657 /* SceneDelegate.swift */; };
 		A2C53A7C286E29EE002AB657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C53A7B286E29EE002AB657 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		A2C53A8F286E29EF002AB657 /* Tasbeeh_counterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C53A8E286E29EF002AB657 /* Tasbeeh_counterTests.swift */; };
 		A2C53A99286E29EF002AB657 /* Tasbeeh_counterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C53A98286E29EF002AB657 /* Tasbeeh_counterUITests.swift */; };
 		A2C53A9B286E29EF002AB657 /* Tasbeeh_counterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C53A9A286E29EF002AB657 /* Tasbeeh_counterUITestsLaunchTests.swift */; };
+		A2C5E9FE28820B2000811A33 /* NoomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5E9FD28820B2000811A33 /* NoomTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2C0D2C3286E8C84007AE864 /* SabaahTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabaahTableViewController.swift; sourceTree = "<group>"; };
+		A2C0D2C5286E8CCF007AE864 /* MasaaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasaaTableViewController.swift; sourceTree = "<group>"; };
 		A2C53A74286E29EE002AB657 /* Tasbeeh_counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasbeeh_counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C53A77286E29EE002AB657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2C53A79286E29EE002AB657 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		A2C53A94286E29EF002AB657 /* Tasbeeh_counterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tasbeeh_counterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C53A98286E29EF002AB657 /* Tasbeeh_counterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasbeeh_counterUITests.swift; sourceTree = "<group>"; };
 		A2C53A9A286E29EF002AB657 /* Tasbeeh_counterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasbeeh_counterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2C5E9FD28820B2000811A33 /* NoomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoomTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				A2C53A77286E29EE002AB657 /* AppDelegate.swift */,
 				A2C53A79286E29EE002AB657 /* SceneDelegate.swift */,
 				A2C53A7B286E29EE002AB657 /* ViewController.swift */,
+				A2C0D2C3286E8C84007AE864 /* SabaahTableViewController.swift */,
+				A2C0D2C5286E8CCF007AE864 /* MasaaTableViewController.swift */,
+				A2C5E9FD28820B2000811A33 /* NoomTableViewController.swift */,
 				A2C53A7D286E29EE002AB657 /* Main.storyboard */,
 				A2C53A80286E29EF002AB657 /* Assets.xcassets */,
 				A2C53A82286E29EF002AB657 /* LaunchScreen.storyboard */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C0D2C4286E8C84007AE864 /* SabaahTableViewController.swift in Sources */,
 				A2C53A7C286E29EE002AB657 /* ViewController.swift in Sources */,
+				A2C5E9FE28820B2000811A33 /* NoomTableViewController.swift in Sources */,
 				A2C53A78286E29EE002AB657 /* AppDelegate.swift in Sources */,
 				A2C53A7A286E29EE002AB657 /* SceneDelegate.swift in Sources */,
+				A2C0D2C6286E8CCF007AE864 /* MasaaTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
